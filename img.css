@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#boton {
+    background-color: #55ff55;
+    border: #55ffe8 0.02em solid;
+    font-size: 5em;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 3em;
+    padding: 0.1em 0.5em;
+    box-shadow: 0.1em 0.1em 10px 0px #219791;
+    text-shadow: #4a4040 3px 3px 3px;
+}
+
+#boton:hover {
+    box-shadow:inset 0.1em 0.1em 20px 7px #219791;
+    text-shadow: none;
+    text-shadow: #607D8B 0px 0px 17px;
+}
+
+div#box {
+    margin: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.impar , .par {
+    width: 25em;
+    vertical-align: top;
+}
+
+.impar {
+    background-color: #55f;
+    border-radius: 3em 0em 0em 0em;
+}
+
+.par {
+    background-color: #fe5;
+    border-radius: 0em 3em 0em 0em;
+}
+
+.solo {
+    background-color: #f70c0c;
+    border-radius: 0em 0em 3em 3em;
+    display: flex;
+    width: 50em;
+    margin: auto;
+}
+
+.impar div , .par div , .solo div {
+    width: 15em;
+    height: 15em;
+    background-color: antiquewhite;
+    border: #000 0.2em solid;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 7em 1em 11em 4em /  6em 1em 8em 4em;
+    box-shadow: 0.1em 0.1em 10px 10px #8d8d8d;
+}
+
+.impar div img , .par div img , .solo div img {
+    width: 100%;
+    border-radius: 7em 1em 11em 4em / 6em 1em 8em 4em;
+}
+
+.caja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.caja div{
+    width: 6em;
+}
+
+.caja div img {
+    width: 100%;
+}
+
+.caja div input {
+    width: 98%;
+    background-color: #66ee;
+    border-radius: 1em;
+    outline: none;
+    text-align: center;
+}

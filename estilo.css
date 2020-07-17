@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#boton {
+    background-color: #55ff55;
+    border: #55ffe8 0.2em solid;
+    font-size: 5em;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 3em;
+    padding: 0.1em 0.5em;
+    box-shadow: 0.1em 0.1em 10px 0px #219791;
+    text-shadow: gray 6px 0;
+}
+
+#boton:hover {
+    box-shadow:inset 0.1em 0.1em 20px 7px #219791;
+    text-shadow: none;
+}
+
+div#box {
+    margin: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.impar , .par {
+    width: 25em;
+    vertical-align: top;
+}
+
+.impar {
+    background-color: #55f;
+    border-radius: 3em 0em 0em 0em;
+}
+
+.par {
+    background-color: #fe5;
+    border-radius: 0em 3em 0em 0em;
+}
+
+.solo {
+    background-color: #f70c0c;
+    border-radius: 0em 0em 3em 3em;
+    display: flex;
+    width: 50em;
+    margin: auto;
+}
+
+.impar div , .par div , .solo div {
+    width: 15em;
+    height: 15em;
+    background-color: antiquewhite;
+    border: #000 0.2em solid;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 7em 1em 11em 4em /  6em 1em 8em 4em;
+    box-shadow:inset 0.1em 0.1em 13px 10px #8d8d8d;
+}
+
+div h1 {
+    font-size: 6em;
+    text-shadow: gray 6px 0;
+}
